@@ -1,0 +1,335 @@
+/*Navigation Bar Styles*/
+body {
+    background-position: 50% 50%;
+    margin:0;
+}
+
+.product-btn {
+    background-color:black;
+    color: white;
+    padding: 16px;
+    font-size: 21px;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    font-family:brittanic;
+}
+.about-btn {
+    background-color:black;
+    color: white;
+    padding: 16px;
+    font-size: 21px;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    font-family:brittanic;
+}
+
+.contact-btn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 21px;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    font-family:brittanic;
+}
+.dropdown0 {
+    position: relative;
+    display: inline-block;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+}
+.product-content {
+    display: none;
+    position: absolute;
+    background-color:#161616;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.about-content {
+    display: none;
+    position: absolute;
+    background-color:#161616;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.contact-content {
+    display: none;
+    position: absolute;
+    background-color:#161616;
+    min-width: 160px;
+    z-index:1;
+}	
+/*#161616*/
+
+nav{
+    background-color:black;
+    text-align:center;
+    padding-top:30px;
+    position:fixed;
+    top:0;
+    width:100%;
+    
+}
+
+.link,.link-hidden,.link-hidden1,.link-hidden0{  /**/
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.link-hidden,.link-hidden1,.link-hidden0{   /**/
+    display: block;
+    background-color:#161616;
+}
+
+.link{
+    display: inline-block;
+}
+
+.link-hidden:hover,.link:hover,.link-hidden1:hover ,.link-hidden0:hover {  /**/
+    color: #0AEA1A;
+    background-color:black;
+}
+.dropdown0:hover .product-content {
+    display: block;
+    background-color:black;
+}	
+.dropdown:hover .about-content {
+    display: block;
+    background-color:black;
+}
+
+.dropdown1:hover .contact-content {
+    display: block;
+    background-color:black;
+}
+.dropdown0:hover .product-btn {
+    color: #0AEA1A;
+    background-color:black;
+}
+.dropdown:hover .about-btn {
+    color: #0AEA1A;
+    background-color:black;
+}
+
+.dropdown1:hover .contact-btn {
+    color: #0AEA1A;
+    background-color:black;
+}
+.content img {
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+.logo{
+    width: 230px;
+    height: 80px;
+}
+#tourism{
+    font-family: monospace;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    
+    
+}
+div.tourismDescription{
+   width: 40%;
+   padding-left: 4rem;
+   float: left;
+   clear: both;
+
+}
+#description1{
+    text-align: justify;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+}
+#camping{
+    font-family: monospace;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    
+}
+#description2{
+    text-align: justify;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+}
+div.campingDescription{
+    width: 40%;
+    padding-left: 9rem;
+    padding-right: 4rem;
+    float: left;
+ }
+ div.empty{
+     float: none;
+ }
+ #typesOfCamping{
+    font-family: monospace;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 3rem;
+ }
+ #beach{
+     align-items: center;
+     width: 800px;
+     height: 500px;
+     margin-left: 20rem;
+     margin-top: 3rem;
+     box-shadow: 0 0 15px 1px rgba(247, 251, 57, 0.8);
+     
+ }
+ #beachCamping{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+ }
+#jungle{
+    width: 800px;
+    height: 500px;
+    margin-left: 20rem;
+    margin-top: 3rem;
+    box-shadow: 0 0 15px 1px rgba(247, 251, 57, 0.8);
+}
+#jungleCamping{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+#mountain{
+    width: 800px;
+    height: 500px;
+    margin-left: 20rem;
+    margin-top: 3rem;
+    box-shadow: 0 0 15px 1px rgba(247, 251, 57, 0.8);
+}
+#mountainCamping{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+#helpFromUs{
+    font-family: monospace;
+    font-size: 40px;
+    color: white;
+    text-align: center; 
+    margin-top: 0%;
+    padding-top: 0%;
+}
+#description3{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+}
+div.anchors1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 4rem;
+    float: left;
+    margin-top: 1rem;
+    
+    
+}
+div.anchors3{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 30rem;
+    padding-left: 4rem;
+    margin-top: 1rem;
+    
+}
+div.anchors{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 4rem;
+    float: left;
+    margin-right: 6rem;
+    
+    
+
+}
+div.anchors a:visited{
+    color: white;
+    text-decoration: none;
+}
+div.anchors a:link{
+    color: white;
+    text-decoration: none;
+}
+div.anchors a:hover{
+    color: aqua;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+div.empty2 {
+    position: fixed;
+    float: none;
+}
+div.anchors1 a:visited{
+    color: white;
+    text-decoration: none;
+}
+div.anchors1 a:link{
+    color: white;
+    text-decoration: none;
+}
+div.anchors1 a:hover{
+    color: aqua;
+    text-decoration: none;
+}
+div.anchors3 a:visited{
+    color: white;
+    text-decoration: none;
+}
+div.anchors3 a:link{
+    color: white;
+    text-decoration: none;
+}
+div.anchors3 a:hover{
+    color: aqua;
+    text-decoration: none;
+}
+hr {
+    clear: both;
+}
+.editorPage{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 4rem;
+    padding-bottom: 2rem;
+}
+.editorPage a:link{
+    color: white;
+}
+.editorPage a:visited{
+    color: white;
+}
+.editorPage a:hover{
+    color: aqua;
+}
