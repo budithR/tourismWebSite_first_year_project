@@ -1,0 +1,135 @@
+<!Doctype html>
+<html lang="en">
+	<head>
+		<title>Our Team</title>
+		<link rel="stylesheet" href=" studentDetailsStyle.css">
+	</head>
+	
+	<body>
+	<!-- navigation bar -->
+		<nav>
+		<div class="content">
+			<img class="logo" src="CEYLONcopy.png" alt="Web Logo">
+		</div>
+		
+		<a class="link" href="Mainpage/WEBCWMAINHTML.html">Home</a>
+		<a class="link" href="mainProductPage.html">Products</a>
+		<a class="link" href="QuickQuiz.html">Quiz</a>
+		<a class="link" href="WEBCWQUERY.html">Query</a>
+		<a class="link" href="ThambnailImage.html">Gallery</a>
+		<div class="dropdown1">
+			<button class="contact-btn">Contact</button>
+				<div class="contact-content">
+					<a class="link-hidden1" href="WEBCWQUERY.html">Query Form</a>
+					
+				</div>
+		</div>
+		
+		<div class="dropdown">
+			<button class="about-btn">About</button>
+				<div class="about-content">
+					<a class="link-hidden" href="SVGDiagram.html">SVG SiteMap</a>
+					<a class="link-hidden" href="#">FAQ</a>
+					<a class="link-hidden" href="studentDetails.html">Student Details</a>
+				</div>
+		</div>
+		
+	</nav>	
+ 
+	
+
+		
+		
+		<div id="container">
+			<h1>Our Team</h1>
+			 
+				<div id="imageBox">
+				
+					<div id="ImgNInfor1"> 
+					
+						<img id="Img1" src="saliha.jpeg" alt="saliha">
+						 <div id="Infor1"> 
+							<h2>Fathima Saliha </h2> 
+							<h3>Student 1</h3>
+							<h3>w1867445</h3>	
+							<h3>20210326</h3>																									 
+						</div>
+						
+				    </div> 
+					
+					 <div id="ImgNInfor2">
+						
+						<img id="Img2" src="susara.jpeg" alt="susara">  
+						<div id="Infor2">  
+							 <h2>Vimoth Susara </h2>  
+							 <h3>Student 2</h3>
+							<h3>w1867051</h3>	
+							<h3>20210192</h3>									 
+						</div>  
+						
+					</div> 
+					
+					 <div id="ImgNInfor3"> 
+						 
+						 <img id="Img3" src="ishani1.jpeg" alt="ishani">  
+						 <div id="Infor3">  
+							 <h2>Ishani Arunika</h2>  
+							 <h3>Student 3</h3>
+							 <h3>w1867061</h3>	
+							<h3>20210285</h3>		
+						 </div>  
+						 
+					 </div>  
+					
+					 <div id="ImgNInfor4">  
+						
+						 <img id="Img4" src="budith.jpeg" alt="budith">  
+						 <div id="Infor4">  
+							 <h2>Budith Ravindu  </h2>  
+							 <h3>Student 4</h3>
+							 <h3>w1867044</h3>	
+							<h3>20210168</h3>		
+						 </div>  
+						 
+					 </div>  
+					
+					
+				</div> 
+			</div>
+			<!--"footer"
+		<div class="footer">
+		<img class="footer-img" src="CEYLON.png">
+		
+		<div class="box">
+		<a href="#">
+		<button class="sitemap-r">
+			Site Map
+		</button>
+		</a>
+		
+		<a href="#">
+		<button class="editor">
+			Page Editor
+		</button>
+		</a>
+		
+			<ul class="footer-social">
+				<li><a class="footer-social-link" href="#">facebook</a></li>
+				<li><a class="footer-social-link-1" href="#">instagram</a></li>
+				<li><a class="footer-social-link-2" href="#">youtube</a></li>
+				<li><a class="footer-social-link-3" href="#">twitter</a></li>
+			</ul>
+			
+		<a href="#">
+		<button class="contact-footer">
+			Contact Us
+		</button>
+		</a>
+		
+		</div>
+		<p class="copyright-text">@copyright aaaaaaaaaa</p>
+	</div>
+	 -->
+		<script  src="studentDetailsScript.js"></script>	 
+	</body>
+</html>

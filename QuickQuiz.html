@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	 
+		<title>QuickQuiz</title>
+		<link rel="stylesheet" href="QuickQuizStyle.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 
+	</head>
+	
+ 
+	<body>
+	<!-- navigation bar -->
+		<nav>
+		<div class="content">
+			<img class="logo" src="CEYLONcopy.png" alt="Web Logo">
+		</div>
+		
+		<a class="link" href="Mainpage/WEBCWMAINHTML.html">Home</a>
+		<a class="link" href="mainProductPage.html">Products</a>
+		<a class="link" href="QuickQuiz.html">Quiz</a>
+		<a class="link" href="WEBCWQUERY.html">Query</a>
+		<a class="link" href="ThambnailImage.html">Gallery</a>
+		<div class="dropdown1">
+			<button class="contact-btn">Contact</button>
+				<div class="contact-content">
+					<a class="link-hidden1" href="WEBCWQUERY.html">Query Form</a>
+					
+				</div>
+		</div>
+		
+		<div class="dropdown">
+			<button class="about-btn">About</button>
+				<div class="about-content">
+					<a class="link-hidden" href="SVGDiagram.html">SVG SiteMap</a>
+					<a class="link-hidden" href="#">FAQ</a>
+					<a class="link-hidden" href="studentDetails.html">Student Details</a>
+				</div>
+		</div>
+		
+	</nav>	
+ 
+		<div id="container"> 
+		
+		<div id="pagetitle">
+			<h1>Quick Quiz</h1>
+			<h3>Test Your Knowledge</h3>
+		</div>
+			<!--start button-->
+			<div id="start">
+				 Start Quiz
+			</div>
+			
+			<!--guideBox-->
+			<div id="guide">
+			
+				<div id="g_header" >
+					<h2>Quiz Guide</h2>
+				</div>
+				
+				<div id="rules">
+					<p>The Quiz contains 10 Questions.</p>
+					<p>You Will Have Only <span>60 Seconds</span> For All Questions.</p>
+					<p>YouWill Get 2 Marks for Correct Answer And -1 Marks For Wrong Answer..</p>
+					<p>When After Quiz Start ,You Can"t Exit From The Quiz</p>
+				</div>
+					 
+				<div id="buttons">
+					<button id="exit">Exit</button>
+					<button id="continuequiz">Continue</button>
+				</div>
+		 
+			</div>
+			
+		<!--quizBox-->
+		<div id="quiz">
+				
+			<!--header-->
+			 
+				<div id="quizHeader" >
+					<h3>Quick Quiz</h3>
+					<div id="timer">
+					<div id="timeText" ><p>Time left</p></div>	
+						<div id="timeSeccond" ></div>
+					</div>
+				</div>
+				 
+				<a href="#submitbutn">Go to the down</a>.
+			<!--questions-->
+			<form name="quizForm">	
+				<div class="question1 qbox" onsubmit="getRadioValue()">
+					 <div class="question" id="quest1">1. What is the highest mountain in Sri Lanka?</div>
+					 <label for="q1-a1" class="option"> <input type="radio" name="option1" id="q1-a1" value="Namunukula"  > Namunukula </label>
+					 <label for="q1-a2" class="option"> <input type="radio" name="option1" id="q1-a2" value="Pidurutalagala"  > Pidurutalagala </label> 
+					 <label for="q1-a3" class="option"> <input type="radio" name="option1" id="q1-a3" value="Kirigalpotta"  > Kirigalpotta </label>
+					 <label for="q1-a4" class="option"> <input type="radio" name="option1" id="q1-a4"  value="Knuckles"> Knuckles </label>
+				</div>
+				
+				<div class="question2 qbox">
+					 <div class="question" id="quest2">2. From which districts are bordered by Knuckles Mountain Range?</div>
+					 <label for="q2-a1" class="option"> <input type="radio" name="option2" id="q2-a1" value="Badulla And Nuwar Eliya" > Badulla And Nuwar Eliya </label>
+					 <label for="q2-a2" class="option"> <input type="radio" name="option2" id="q2-a2" value="Badulla And Matale " > Badulla And Matale </label> 
+					 <label for="q2-a3" class="option"> <input type="radio" name="option2" id="q2-a3" value="Kandy And Nuwar Eliya" > Kandy And Nuwar Eliya </label>
+					 <label for="q2-a4" class="option"> <input type="radio" name="option2" id="q2-a4"  value="Kandy And Matale"> Kandy And Matale </label>
+				</div>
+				
+				<div class="question3 qbox">
+					 <div class="question" id="quest3">3. Where Sithulpawwa is located?</div>
+					 <label for="q3-a1" class="option"> <input type="radio" name="option3" id="q3-a1"  value="Yala National Park" >Yala National Park </label>
+					 <label for="q3-a2" class="option"> <input type="radio" name="option3" id="q3-a2"  value="Kaudulla National Park" >Kaudulla National Park </label>
+					 <label for="q3-a3" class="option"> <input type="radio" name="option3" id="q3-a3"  value="Udawalawe National Park" >Udawalawe National Park</label>
+					 <label for="q3-a4" class="option"> <input type="radio" name="option3" id="q3-a4"   value="Wilpattu national park"> Wilpattu national park </label>
+				</div>
+				
+				<div class="question4 qbox">
+					 <div class="question" id="quest4">4. What is the highest waterfall in sri lanka?</div>
+					 <label for="q4-a1" class="option"> <input type="radio" name="option4" id="q4-a1"  value="Diyaluma Falls" > Diyaluma Falls </label>
+					 <label for="q4-a2" class="option"> <input type="radio" name="option4" id="q4-a2"  value="Bambarakanda Falls" > Bambarakanda Falls </label>
+					 <label for="q4-a3" class="option"> <input type="radio" name="option4" id="q4-a3"  value="Rawana Ella" > Rawana Ella </label>
+					 <label for="q4-a4" class="option"> <input type="radio" name="option4" id="q4-a4"  value="Dunhinda Falls" > Dunhinda Falls </label>
+				</div>
+				
+				<div class="question5 qbox">
+					 <div class="question" id="quest5">5. What is the province where Narangala Mountain is located?</div>
+					 <label for="q5-a1" class="option"> <input type="radio" name="option5" id="q5-a1"   value="Uva Province"> Uva Province </label>
+					 <label for="q5-a2" class="option"> <input type="radio" name="option5" id="q5-a2"   value="Central Province"> Central Province</label>
+					 <label for="q5-a3" class="option"> <input type="radio" name="option5" id="q5-a3"  value="Sabaragamuwa Province" > Sabaragamuwa Province </label>
+					 <label for="q5-a4" class="option"> <input type="radio" name="option5" id="q5-a4"   value="Southern Province"> Southern Province </label>
+				</div>
+				
+				<div class="question6 qbox">
+					 <div class="question" id="quest6">6. What is the largest national park in Sri Lanka?</div>
+					 <label for="q6-a1" class="option"> <input type="radio" name="option6" id="q6-a1"  value="Kaudulla National Park" > Kaudulla National Park </label>
+					 <label for="q6-a2" class="option"> <input type="radio" name="option6" id="q6-a2"   value="Wilpattu national park"> Wilpattu national park </label>
+					 <label for="q6-a3" class="option"> <input type="radio" name="option6" id="q6-a3"   value="Yala National Park"> Yala National Park </label>
+					 <label for="q6-a4" class="option"> <input type="radio" name="option6" id="q6-a4"   value="Udawalawe National Park"> Udawalawe National Park </label>
+				</div>
+				
+				<div class="question7 qbox">
+					 <div class="question" id="quest7">7. Kalpitiya beach famous for?</div>
+					 <label for="q7-a1" class="option"> <input type="radio" name="option7" id="q7-a1"  value="Tranquil Blue Waters" > Tranquil Blue Waters </label>
+					 <label for="q7-a2" class="option"> <input type="radio" name="option7" id="q7-a2"  value="Surfing And Fishing" > Surfing And Fishing </label>
+					 <label for="q7-a3" class="option"> <input type="radio" name="option7" id="q7-a3"   value="Surfing And Fishing"> Whale watching </label>
+					 <label for="q7-a4" class="option"> <input type="radio" name="option7" id="q7-a4"  value="Stunning Temples" > Stunning Temples </label>
+				</div>
+				
+				<div class="question8 qbox">
+					 <div class="question" id="quest8">8. Which is the capital of Sri Lanka?</div>
+					 <label for="q8-a1" class="option"> <input type="radio" name="option8" id="q8-a1"   value="Colombo">  Colombo </label>
+					 <label for="q8-a2" class="option"> <input type="radio" name="option8" id="q8-a2"  value="Galle" >  Galle </label>
+					 <label for="q8-a3" class="option"> <input type="radio" name="option8" id="q8-a3"  value="Sri Jayawardenepura Kotte" >  Sri Jayawardenepura Kotte </label>
+					 <label for="q8-a4" class="option"> <input type="radio" name="option8" id="q8-a4"  value="Batticalo" > Batticalo </label>
+				</div>
+				
+				<div class="question9 qbox">
+					 <div class="question" id="quest9">9. What is the 8th wonder of the world??</div>
+					 <label for="q9-a1" class="option"> <input type="radio" name="option9" id="q9-a1"   value="Sigiriya"> Sigiriya </label>
+					 <label for="q9-a2" class="option"> <input type="radio" name="option9" id="q9-a2"   value="Mihintale"> Mihintale </label>
+					 <label for="q9-a3" class="option"> <input type="radio" name="option9" id="q9-a3"  value="Galle Fort" > Galle Fort </label>
+					 <label for="q9-a4" class="option"> <input type="radio" name="option9" id="q9-a4"  value="Gal Vihara" > Gal Vihara </label>
+				</div>
+				
+				<div class="question10 qbox">
+					 <div class="question" id="quest10">10. How many national parks in sri lanka?</div>
+					 <label for="q10-a1" class="option"> <input type="radio" name="option10" id="q10-a1"  value="25" > 25 </label>
+					 <label for="q10-a2" class="option"> <input type="radio" name="option10" id="q10-a2"  value="16" > 16 </label>
+					 <label for="q10-a3" class="option"> <input type="radio" name="option10" id="q10-a3"  value="22" > 22 </label>
+					 <label for="q10-a4" class="option"> <input type="radio" name="option10" id="q10-a4"   value="28"> 28 </label>
+				</div>
+				<!-- <h3 id="scoures"></h3> -->
+				
+				<!--submit button-->
+			 
+					<input type="button" onclick="getRadioValue()" value="Submit" id="submitbutn">
+						     
+			</form>	
+				<a href="#quizHeader">Go to the top</a>.
+			</div>
+			
+			<!--result box-->
+			<div id="result">
+				 <i class="fa fa-trophy" ></i>
+				<h5>You Are Completed The Quiz</h5>
+				<div id="marks">
+				<h3 id="scourestext">You Got </h3>
+				<h3 id="scoures">0</h3>
+				</div>
+				<div id="buttonslast">
+							<button id="quit">Quit Quiz</button>
+							<button id="again">Start Again</button>
+				</div>
+			</div>
+			
+		 
+	</div>	
+	<a href="pageEditor.html">Editor Page</a><br><br>
+	<a href="additionalPage.html">Additional Page</a>
+	<script   src="QuickQuizScript.js"></script>	 
+	
+	
+	
+	</body>
+
+	
+</html>

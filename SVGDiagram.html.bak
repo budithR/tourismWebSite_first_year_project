@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>SVGSitemap</title>
+        <link rel="StyleSheet" href="SVGDiagramStyle.css">
+    </head>
+    <body style="background-image:url(./Images/SVGbackground.jpeg); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
+        <!--Navigation Bar-->
+        <nav>
+            <div class="content">
+                <img class="logo" src="Images/logo.jpeg" alt="logo">
+            </div>
+            
+            <a class="link" href="Mainpage/WEBCWMAINHTML.html">Home</a>
+            <!--<a class="link" href="#">Products</a>-->
+            <div class="dropdown0">
+                <button class="product-btn">Products</button>
+                
+                    <div class="product-content">
+					    <a class="link-hidden0" href="mainProductPage.html">All products</a>
+                        <a class="link-hidden0" href="tent.html">Dome Camping Tent</a>
+                        <a class="link-hidden0" href="chair.html">Folding Chair</a>
+                        <a class="link-hidden0" href="backpack.html">Camping Backpack</a>
+                        <a class="link-hidden0" href="sleepingbag.html">Sleeping bag</a>
+                        <a class="link-hidden0" href="#cart">Cart</a>
+                    </div>
+            </div>
+            <a class="link" href="QuickQuiz.html">Quiz</a>
+            <a class="link" href="ThambnailImage.html">Gallery</a>
+            <div class="dropdown1">
+                <button class="contact-btn">Contact</button>
+                    <div class="contact-content">
+                        <a class="link-hidden1" href="WEBCWQUERY.html">Query Form</a>
+                        
+                    </div>
+            </div>
+            
+            <div class="dropdown">
+                <button class="about-btn">About</button>
+                
+                    <div class="about-content">
+                        <a class="link-hidden" href="SVGDiagram.html">SVG SiteMap</a>
+                        <a class="link-hidden" href="#">FAQ</a>
+                        <a class="link-hidden" href="studentDetails.html">Student Details</a>
+                    </div>
+            </div>
+        </nav>
+
+        <!--SVG Diagram-->
+
+        <svg id="svgSiteMap" height="800" width="1500">
+            <g id="home">
+                <rect x="100" y="150" rx="3" ry="3" height="40" width="200" stroke-width="3" stroke="white" fill="#0AEA1A" fill-opacity="0.1"/>
+                <text fill="white" font-size="21" x="200" y="175" font-family="brittanic" text-anchor="middle" font-weight="bold">Home</text>
+            </g> 
+
+            <text fill="white" font-size="21" x="150" y="225" font-family="brittanic" text-anchor="middle" font-weight="bold">Product</text>
+            <line x1="70" y1="230" x2="1450" y2="230" stroke-width="4" stroke="white"/>
+
+            <g id="product1">  
+                <rect x="100" y="260" height="40" rx="3" ry="3" width="200" stroke-width="3" stroke="white" fill="#0AEA1A" fill-opacity="0.1"/>
+                <text fill="white" font-size="21" x="200" y="285" font-family="brittanic" text-anchor="middle" font-weight="bold">Dome Camping Tent</text>
+            </g> 
+            
+            <g id="product2">
+                <rect x="375" y="260" rx="3" ry="3" height="40" width="200" stroke-width="3" stroke="white" fill="#0AEA1A" fill-opacity="0.1"/>
+                <text fill="white" font-size="21" x="475" y="285" font-family="brittanic" text-anchor="middle" font-weight="bold">Folding Chair</text>
+            </g>
+
+            <g id="product3">
+                <rect x="650" y="260" rx="3" ry="3" height="40" width="200" stroke-width="3" stroke="white" fill="#0AEA1A" fill-opacity="0.1"/>
+                <text fill="white" font-size="21" x="750" y="285" font-family="brittanic" text-anchor="middle" font-weight="bold">Camping Backpack</text>
+            </g>
+
+            <g id="product4">
+                <rect x="925" y="260" rx="3" ry="3" height="40" width="200" stroke-width="3" stroke="white" fill="#0AEA1A" fill-opacity="0.1"/>
+                <text fill="white" font-size="21" x="1025" y="285" font-family="brittanic" text-anchor="middle" font-weight="bold">Sleeping Bag</text>
+            </g>
+
+            <g id="product5">
+                <rect x="1200" y="260" rx="3" ry="3" height="40" width="200" stroke-width="3" stroke="white" fill="#0AEA1A" fill-opacity="0.1"/>
+                <text fill="white" font-size="21" x="1300" y="285" font-family="brittanic" text-anchor="middle" font-weight="bold">Cart</text>
+            </g>
+
+            <line x1="70" y1="340" x2="1450" y2="340" stroke-width="3" stroke="white"/>
+
+            <g id="Quiz">
+                <rect x="100" y="370" rx="3" ry="3" height="40" width="200" stroke-width="3" stroke="white" fill="#0AEA1A" fill-opacity="0.1"/>
+                <text fill="white" font-size="21" x="200" y="395" font-family="brittanic" text-anchor="middle" font-weight="bold">Quiz</text>
+            </g>
+
+            <line x1="70" y1="450" x2="1450" y2="450" stroke-width="3" stroke="white"/>
+
+            <g id="Gallery">
+                <rect x="100" y="480" rx="3" ry="3" height="40" width="200" stroke-width="3" stroke="white" fill="#0AEA1A" fill-opacity="0.1"/>
+                <text fill="white" font-size="21" x="200" y="505" font-family="brittanic" text-anchor="middle" font-weight="bold">Gallery</text>
+            </g>
+
+            <text fill="white" font-size="21" x="150" y="555" font-family="brittanic" text-anchor="middle" font-weight="bold">Contact</text>
+            <line x1="70" y1="560" x2="1450" y2="560" stroke-width="3" stroke="white"/>
+
+            <g id="QueryForm">
+                <rect x="100" y="590" rx="3" ry="3" height="40" width="200" stroke-width="3" stroke="white" fill="#0AEA1A" fill-opacity="0.1"/>
+                <text fill="white" font-size="21" x="200" y="615" font-family="brittanic" text-anchor="middle" font-weight="bold">Query Form</text>
+            </g>
+
+            <text fill="white" font-size="21" x="150" y="665" font-family="brittanic" text-anchor="middle" font-weight="bold">About</text>
+            <line x1="70" y1="670" x2="1450" y2="670" stroke-width="3" stroke="white"/>
+
+            <g id="SVGSiteMap">
+                <rect x="100" y="700" rx="3" ry="3" height="40" width="200" stroke-width="3" stroke="white" fill="#0AEA1A" fill-opacity="0.1"/>
+                <text fill="white" font-size="21" x="200" y="725" font-family="brittanic" text-anchor="middle" font-weight="bold">SVG SiteMap</text>
+            </g>
+
+            <g id="FAQ">
+                <rect x="375" y="700" rx="3" ry="3" height="40" width="200" stroke-width="3" stroke="white" fill="#0AEA1A" fill-opacity="0.1"/>
+                <text fill="white" font-size="21" x="475" y="725" font-family="brittanic" text-anchor="middle" font-weight="bold">FAQ</text>
+            </g>
+
+            <g id="StudentDetails">
+                <rect x="650" y="700" rx="3" ry="3" height="40" width="200" stroke-width="3" stroke="white" fill="#0AEA1A" fill-opacity="0.1"/>
+                <text fill="white" font-size="21" x="750" y="725" font-family="brittanic" text-anchor="middle" font-weight="bold">Student Details</text>
+            </g>
+        </svg>
+
+        <div class="editorPage">
+            <a id="editorPageA" href="./EditorPage.html">Editor Page</a>
+        </div>
+
+        <div class="additionalContentPage">
+            <a id="additionalContentPageA" href="./AdditionalContent.html">Additional Content Page</a>
+        </div>
+
+        <!--SVG Diagram JS-->
+
+        <script>
+            document.getElementById("home").
+            addEventListener("click" , function()
+            {
+                document.location.href="Mainpage/WEBCWMAINHTML.html"
+            });
+
+            document.getElementById("product1").
+            addEventListener("click" , function()
+            {
+                document.location.href="tent.html"
+            });
+
+            document.getElementById("product2").
+            addEventListener("click" , function()
+            {
+                document.location.href="chair.html"
+            });
+
+            document.getElementById("product3").
+            addEventListener("click" , function()
+            {
+                document.location.href="backpack.html"
+            });
+
+            document.getElementById("product4").
+            addEventListener("click" , function()
+            {
+                document.location.href="sleepingbag.html"
+            });
+
+            document.getElementById("product5").
+            addEventListener("click" , function()
+            {
+                document.location.href="https://padlet.com/sulochanar/ildsd4yej3xb9ng"
+            });
+
+            document.getElementById("Quiz").
+            addEventListener("click" , function()
+            {
+                document.location.href="QuickQuiz.html"
+            });
+
+            document.getElementById("Gallery").
+            addEventListener("click" , function()
+            {
+                document.location.href="ThambnailImage.html"
+            });
+
+            document.getElementById("QueryForm").
+            addEventListener("click" , function()
+            {
+                document.location.href="WEBCWQUERY.html"
+            });
+
+            document.getElementById("SVGSiteMap").
+            addEventListener("click" , function()
+            {
+                document.location.href="SVGDiagram.html"
+            });
+
+            document.getElementById("FAQ").
+            addEventListener("click" , function()
+            {
+                document.location.href="https://padlet.com/sulochanar/ildsd4yej3xb9ng"
+            });
+
+            document.getElementById("StudentDetails").
+            addEventListener("click" , function()
+            {
+                document.location.href="studentDetails.html"
+            });
+        </script>
+    </body>
+</html>

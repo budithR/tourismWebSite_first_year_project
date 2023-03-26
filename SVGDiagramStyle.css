@@ -1,0 +1,194 @@
+body {
+    background-position: 50% 50%;
+    margin:0;
+}
+
+.product-btn {
+    background-color:black;
+    color: white;
+    padding: 16px;
+    font-size: 21px;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    font-family:brittanic;
+}
+.about-btn {
+    background-color:black;
+    color: white;
+    padding: 16px;
+    font-size: 21px;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    font-family:brittanic;
+}
+
+.contact-btn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 21px;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    font-family:brittanic;
+}
+.dropdown0 {
+    position: relative;
+    display: inline-block;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+}
+.product-content {
+    display: none;
+    position: absolute;
+    background-color:#161616;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.about-content {
+    display: none;
+    position: absolute;
+    background-color:#161616;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.contact-content {
+    display: none;
+    position: absolute;
+    background-color:#161616;
+    min-width: 160px;
+    z-index:1;
+}	
+/*#161616*/
+
+nav{
+    background-color:black;
+    text-align:center;
+    padding-top:30px;
+    position:fixed;
+    top:0;
+    width:100%;
+    
+}
+
+.link,.link-hidden,.link-hidden1,.link-hidden0{  /**/
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.link-hidden,.link-hidden1,.link-hidden0{   /**/
+    display: block;
+    background-color:#161616;
+}
+
+.link{
+    display: inline-block;
+}
+
+.link-hidden:hover,.link:hover,.link-hidden1:hover ,.link-hidden0:hover {  /**/
+    color: #0AEA1A;
+    background-color:black;
+}
+.dropdown0:hover .product-content {
+    display: block;
+    background-color:black;
+}	
+.dropdown:hover .about-content {
+    display: block;
+    background-color:black;
+}
+
+.dropdown1:hover .contact-content {
+    display: block;
+    background-color:black;
+}
+.dropdown0:hover .product-btn {
+    color: #0AEA1A;
+    background-color:black;
+}
+.dropdown:hover .about-btn {
+    color: #0AEA1A;
+    background-color:black;
+}
+
+.dropdown1:hover .contact-btn {
+    color: #0AEA1A;
+    background-color:black;
+}
+
+.content img {
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+/*SVG Diagram Style*/
+
+h1 {
+    background-color: rgb(139, 168, 141);
+}
+#svgSiteMap g:hover rect,
+#svgSiteMap g:focus rect{
+    fill: black;
+    fill-opacity: 0.2;
+    stroke: white;
+    cursor: pointer;
+}
+#svgSiteMap g:hover g text,
+#svgSiteMap g:hover text {
+    fill: #0AEA1A;
+    cursor: pointer;
+}
+.logo{
+    width: 230px;
+    height: 80px;
+
+}
+.editorPage{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5rem;
+    padding-bottom: 2rem;
+    float: left;
+}
+.editorPage a:link{
+    color: white;
+}
+.editorPage a:visited{
+    color: white;
+}
+.editorPage a:hover{
+    color: aqua;
+}
+
+
+
+.additionalContentPage{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 76rem;
+    padding-bottom: 2rem;
+}
+.additionalContentPage a:link{
+    color: white;
+}
+.additionalContentPage a:visited{
+    color: white;
+}
+.additionalContentPage a:hover{
+    color: aqua;
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Thambnail Image</title>
+        <link rel="StyleSheet" href="ThambnailImageStyle.css">
+        <style>
+            
+
+        </style>
+    </head>
+    <body>
+        <!--Navigation Bar-->
+        <nav>
+            <div class="content">
+                <img class="logo" src="Images/logo.jpeg" alt="logo">
+            </div>
+            
+            <a class="link" href="Mainpage/WEBCWMAINHTML.html">Home</a>
+            <!--<a class="link" href="#">Products</a>-->
+            <div class="dropdown0">
+                <button class="product-btn">Products</button>
+                
+                    <div class="product-content">
+					    <a class="link-hidden0" href="mainProductPage.html">All products</a>
+                        <a class="link-hidden0" href="tent.html">Dome Camping Tent</a>
+                        <a class="link-hidden0" href="chair.html">Folding Chair</a>
+                        <a class="link-hidden0" href="backpack.html">Camping Backpack</a>
+                        <a class="link-hidden0" href="sleepingbag.html">Sleeping bag</a>
+                        <a class="link-hidden0" href="#cart">Cart</a>
+                    </div>
+            </div>
+            <a class="link" href="QuickQuiz.html">Quiz</a>
+            <a class="link" href="ThambnailImage.html">Gallery</a>
+            <div class="dropdown1">
+                <button class="contact-btn">Contact</button>
+                    <div class="contact-content">
+                        <a class="link-hidden1" href="WEBCWQUERY.html">Query Form</a>
+                        
+                    </div>
+            </div>
+            
+            <div class="dropdown">
+                <button class="about-btn">About</button>
+                
+                    <div class="about-content">
+                        <a class="link-hidden" href="SVGDiagram.html">SVG SiteMap</a>
+                        <a class="link-hidden" href="#">FAQ</a>
+                        <a class="link-hidden" href="studentDetails.html">Student Details</a>
+                    </div>
+            </div>
+              
+        </nav>
+
+        <!--pull down menu-->
+        <br><br><br>
+        <h1 id="h1">Gallery</h1>
+
+        <div class="back">
+            <label id="backgroundCLabel" for="backgroundC">Choose a background color :</label>
+            <select name="backgroundC" id="backgroundC" onchange="backgroundCChange(this.value)">
+            <option value="#262626">Grey</option>
+            <option value="#382b00">Brown</option>
+            <option value="#012e3b">Blue</option>
+            </select>
+        </div>
+
+        <div class="text">
+            <label id="textCLabel" for="textC">Choose a text color :</label>
+            <select name="textC" id="textC" onchange="textCChange(this.value)">
+            <option value="white">White</option>
+            <option value="#0AEA1A">Green</option>
+            <option value="#ffea00">Yellow</option>
+            </select>
+        </div>
+
+        <!--Images-->
+        <div class="imageSet">
+            <ul class="imageGrid">
+                <li><a href="#img-1"><img id="image1" src="./Images/knuclesCamping.jpeg" alt="knucles" ></a></li>
+                <li><a href="#img-1"><img id="image2" src="./Images/arugambay.jpeg" alt="arugambe" ></a></li>
+                <li><a href="#img-1"><img id="image3" src="./Images/chariotpath.jpeg" alt="chariotpath" ></a></li>
+                <li><a href="#img-1"><img id="image4" src="./Images/idalgashinnaCamping.jpeg" alt="idalgashinna" ></a></li>
+                <li><a href="#img-1"><img id="image5" src="./Images/narangala.jpeg" alt="narangala"></a></li> 
+                
+            </ul>
+        </div>
+
+        <!--Preview Image-->
+        <div class="previewImage">
+            <img class="image" src="./Images/knuclesCamping.jpeg" alt="knuckles">
+        </div>
+
+        <!--Description-->
+        <div class="description">
+            <h3 id="title">Knucles Mountain range Camping</h3>
+            <p id="imageDescription">The Knuckles Mountain Range lies in central Sri Lanka, in the Districts of Matale and Kandy. 
+                The range takes its name from a series of recumbent folds and peaks in the west of the massif which resemble the knuckles
+                 of clenched fist when viewed from certain locations in the Kandy District.</p>
+        </div> 
+        
+        <div class="editorPage">
+            <a id="editorPageA" href="./EditorPage.html">Editor Page</a>
+        </div>
+
+        <div class="additionalContentPage">
+            <a id="additionalContentPageA" href="./AdditionalContent.html">Additional Content Page</a>
+        </div>
+
+        <script>
+        function backgroundCChange(value){
+                document.body.style.backgroundColor = value;
+        }
+
+        function textCChange(value) {
+            document.getElementById("h1").style.color = value;
+            document.getElementById("backgroundCLabel").style.color = value;
+            document.getElementById("textCLabel").style.color = value;
+            document.getElementById("title").style.color = value;
+            document.getElementById("imageDescription").style.color = value;
+            document.getElementById("additionalContentPageA").style.color = value;
+            document.getElementById("editorPageA").style.color = value;
+        }
+
+        //functions for preview img and description changing
+        document.getElementById("image1").addEventListener("mouseover", function(){
+            document.images[6].src="./Images/knuclesCamping.jpeg";
+            document.getElementById("title").innerHTML = "Knucles Mountain range Camping";
+            document.getElementById("imageDescription").innerHTML = "The Knuckles Mountain Range lies in central Sri Lanka, in the Districts of Matale and Kandy. The range takes its name from a series of recumbent folds and peaks in the west of the massif which resemble the knuckles of clenched fist when viewed from certain locations in the Kandy District.";
+        });
+        document.getElementById("image2").addEventListener("mouseover", function(){
+            document.images[6].src="./Images/arugambay.jpeg";
+            document.getElementById("title").innerHTML = "Arugam Bay Beach Camping";
+            document.getElementById("imageDescription").innerHTML = "Arugam Bay, known locally as 'Arugam Kudah', is situated on the Indian Ocean in the dry zone of Sri Lanka's southeast coast, and a historic settlement of the ancient Batticaloa Territory.";
+        });
+        document.getElementById("image3").addEventListener("mouseover", function(){
+            document.images[6].src="./Images/chariotpath.jpeg";
+            document.getElementById("title").innerHTML = "Chariot Path";
+            document.getElementById("imageDescription").innerHTML = "Chariot Path of King Rawana is a grassland (Plain) that looks like a pathway. It lies on top of a mountain range surrounded by a pygmy forest near Frotoft Tea Estate in Pussallawa in Kandy district in the Central province of Sri Lanka.";
+        });
+        document.getElementById("image4").addEventListener("mouseover", function(){
+            document.images[6].src="./Images/idalgashinnaCamping.jpeg";
+            document.getElementById("title").innerHTML = "Idalgashinna Camping";
+            document.getElementById("imageDescription").innerHTML = "Idalgashinna is a small village in the Badulla District, Uva Province, Sri Lanka. Situated at an elevation of about 1,615 metres above sea level, it is located in the Haputale-Namunukula mountain range.";
+        });
+        document.getElementById("image5").addEventListener("mouseover", function(){
+            document.images[6].src="./Images/narangala.jpeg";
+            document.getElementById("title").innerHTML = "Narangala";
+            document.getElementById("imageDescription").innerHTML = "Beautiful Narangala, with its golden grass, rises up to a height of over 1500m in the Uva Province of Sri Lanka. The summit of this second highest mountain in Uva, provides some of the very best views in the entire tropical island. In addition to it; the reasonable challenge that climbing it offers has made it a great favorite amongst hikers.";
+        });
+        </script>
+        
+
+
+        
+    </body>
+</html>

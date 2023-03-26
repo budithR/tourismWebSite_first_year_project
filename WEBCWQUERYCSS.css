@@ -1,0 +1,399 @@
+	body {
+		margin:0;
+		background-image:url("");
+		background-position:center;
+		width:100%;
+		background-repeat:no-repeat;
+		background-attachment: fixed;  
+        background-size: cover;
+	
+	}
+	
+	.about-btn {
+		background-color: black;
+		color: white;
+		padding: 16px;
+		font-size: 21px;
+		font-family:brittanic;
+		border: none;
+		font-weight:bold;
+		cursur:pointer;
+		transition: all 0.5s;
+		
+	}
+	
+	.contact-btn {
+		background-color: black;
+		color: white;
+		padding: 16px;
+		font-size: 21px;
+		font-family:brittanic;
+		border: none;
+		font-weight:bold;
+		cursor:pointer;
+		transition: all 0.5s;
+	}
+	
+	.product-btn{
+		background-color: black;
+		color: white;
+		padding: 16px;
+		font-size: 21px;
+		font-family:brittanic;
+		border: none;
+		font-weight:bold;
+		cursor:pointer;
+		transition: all 0.5s;
+	}
+	
+	
+	.dropdown {
+		position: relative;
+		display: inline-block;
+		transition: all 0.5s;
+	}
+	
+	.dropdown1 {
+		position: relative;
+		display: inline-block;
+		transition: all 0.5s;
+	}
+	
+	.dropdown0{
+		position: relative;
+		display: inline-block;
+		transition: all 0.5s;
+	}
+	
+	.about-content {
+		display: none;
+		position: absolute;
+		background-color:#161616;
+		min-width: 160px;
+		z-index: 1;
+	}
+	
+	.contact-content {
+		display: none;
+		position: absolute;
+		background-color:#161616;
+		min-width: 160px;
+		z-index:1;
+	}	
+	
+	.product-content{
+		display: none;
+		position: absolute;
+		background-color:#161616;
+		min-width: 160px;
+		z-index: 1;
+	}
+	
+	
+	nav{
+		background-color:black;
+		text-align:center;
+		padding-top:30px;
+		position:fixed;
+		top:0;
+		width:100%;
+		box-shadow:solid black 100px;
+		z-index:1;
+		border-bottom-style:solid;
+		border-bottom-color:yellow;
+		
+	}
+	
+	.link,.link-hidden,.link-hidden1,.link-hidden0{
+		display: inline-block;
+		color: rgb(255, 255, 255);
+		padding: 12px 16px;
+		text-decoration: none;
+		font-size: 20px;
+		font-weight: bold;
+		transition: all 0.5s;
+	}
+	
+	.link-hidden,.link-hidden1,.link-hidden0{
+		display: block;
+		background-color:black;
+		transition: all 0.5s;
+	}
+	
+	.link{
+		display: inline-block;
+		transition: all 0.5s;
+	}
+	
+	.link-hidden:hover,.link:hover,.link-hidden1:hover ,.link-hidden0:hover {
+		color: #0AEA1A;
+		background-color:black;
+	}
+	
+	.dropdown:hover .about-content {
+		display: block;
+		background-color:black;
+	}
+	
+	.dropdown1:hover .contact-content {
+		display: block;
+		background-color:black;
+	}
+	
+	.dropdown0:hover .product-content{
+		display: block;
+		background-color:black;
+	}
+	
+	.dropdown:hover .about-btn {
+		color: #0AEA1A;
+		background-color:black;
+	}
+	
+	.dropdown1:hover .contact-btn {
+		color: #0AEA1A;
+		background-color:black;
+	}
+	
+	.dropdown0:hover .product-btn{
+		color: #0AEA1A;
+		background-color:black;
+	}
+	
+	
+	img {
+		float:left;
+		width:230px;
+		height:80px;
+		
+	}
+	
+	.content img {
+		position:absolute;
+		top:0px;
+		left:0px;
+	}
+	
+	*{
+		box-sizing:border-box;
+	}
+	
+	input[type=text],select{
+		width:55%;
+		padding:15px;
+		display:inline-block;
+		background:#D5D3D1 ;
+		box-sizing:border-box;
+		margin-top:10px;
+		margin-bottom:17px;
+		border-radius:10px;
+		border-type:solid;
+		border-color:yellow;
+	}
+	
+	.query-container{
+		padding-top:50px;
+		text-align:center;
+		background-color:black;
+		background-repeat:no-repeat;
+		background-size:cover;
+		margin-left:400px;
+		margin-right:410px;
+		margin-top:95px;
+		border-radius:20px;
+		height:650px;
+		border-style:solid;
+		border-color:yellow;
+		
+	}
+	
+	textarea{
+		width:55%;
+		height:30%;
+		border-radius:10px;
+		border-type:solid;
+		border-color:yellow;
+		background:#D5D3D1;
+	}
+	
+	.viewQuerybtn{
+		background-color:black;
+		border-style:solid;
+		border-color:white;
+		color:white;
+		font-size:17px;
+		border-radius:10px;
+	}
+	
+	.viewQuerybtn:hover{
+		cursor:pointer;
+		color:yellow;
+		border-color:yellow;
+	}
+	
+	.query-container label,.selection{
+		font-size:17px;
+		color:white;
+	}
+	
+	.footer{
+		position:absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		top:850px;
+		background: black;
+		height:380px;
+		width: 100%;
+		color: #fff;
+		margin-bottom:0;
+		border-top-style:solid;
+		border-top-color:yellow;
+		z-index:1;
+		border-top-style:solid;
+		border-top-color:yellow;
+		
+	
+	}
+	
+	
+	.footer-img{
+		height:350px;
+		width:380px;
+		margin-left:100px;
+	}
+	
+	.copyright-text{
+		padding-right:100px;
+		background-size:cover;
+		
+	}
+	
+	.footer-social{
+		padding-left:980px;
+		margin-bottom:50px;
+	}
+
+	.footer-social a{
+		text-decoration:none;
+		color:white;
+		font-size:20px;
+		
+		
+	}
+	
+	.footer-social li{
+		display:inline;
+		top:0px;
+	
+		
+		
+	}
+	
+	.footer-social-link,.footer-social-link-1,.footer-social-link-2,.footer-social-link-3{
+		padding-right:50px;
+		transition: all 0.5s;
+		
+		
+	}
+	
+	
+	.footer-social-link:hover{
+		color:#0E32BB ;
+	}
+	
+	.footer-social-link-1:hover{
+		color:#C41F97;
+	}
+	
+	.footer-social-link-2:hover{
+		color:#D71B32;
+	}
+	
+	.footer-social-link-3:hover{
+		color:#3A92F7 ;
+	}
+	
+	.footer a{
+		text-decoration:none;
+	}
+	
+	.sitemap-r{
+		background-color:black;
+		color:white;
+		border-radius:15px;
+		border: 3px dotted yellow;
+		text-align: center;
+		font-size: 28px;
+		padding: 15px;
+		width: 200px;
+		cursor: pointer;
+		margin-left:500px;
+		margin-right:50px;
+		margin-top:120px;
+	}
+	
+	.sitemap-r-link{
+		text-decoration:none;
+		color:white;
+		transition: all 0.5s;
+	}
+	
+	.sitemap-r-link:hover{
+		color:yellow;
+		
+	}
+	
+	.editor{
+		background-color:black;
+		color:white;
+		border-radius:15px;
+		border: 3px dotted yellow;
+		text-align: center;
+		font-size:18px;
+		padding: 15px;
+		transition: all 0.5s;
+		cursor: pointer;
+		margin-bottom:50px;
+	}
+	
+	.editor-link{
+		text-decoration:none;
+		color:white;
+		transition: all 0.5s;
+	}
+	
+	.editor-link:hover{
+		color:yellow;
+		
+	}
+	
+	.contact-footer{
+		background-color:black;
+		color:white;
+		border-radius:15px;
+		border: 3px dotted yellow;
+		text-align: center;
+		font-size:20px;
+		padding-top: 10px;
+		padding-bottom:10px;
+		transition: all 0.5s;
+		cursor: pointer;
+		margin-left:660px;
+	}
+	
+	.contact-footer-link{
+		text-decoration:none;
+		color:white;
+		transition: all 0.5s;
+	}
+	
+	
+	
+	.contact-footer-link:hover{
+		color:yellow;
+	}
+	
+	
+	
+	

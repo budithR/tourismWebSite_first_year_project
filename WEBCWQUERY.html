@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Query Form</title>
+	<link rel="stylesheet" href="WEBCWQUERYCSS.css">
+	<link rel="icon" type="image/favicon" href="favicon.png">
+
+	<!--javascript validation-->
+	
+	<script>
+		function valuecheck(){
+			var fullname = document.getElementById("fullname").value;
+		
+			var email = document.getElementById("email").value;
+			
+			var select = document.getElementById("selection").value;
+			
+			var detail = document.getElementById("detail").value;
+			
+			
+			
+			if (fullname == ""){
+				alert("Please enter your name!");
+				return false;
+			}
+			
+			if(email == ""){
+				alert("Please enter the email!");
+				return false;
+			}
+			else if (email.indexOf("@") == -1){
+				alert("invalid email!");
+				return false;
+			}
+			
+			if(select == "blank"){
+				alert("Please choose a subject!");
+				return false;
+			}
+			
+			if (detail == ""){
+				alert("Please enter details!");
+				return false;
+			}
+			
+		}
+		
+	
+	</script>
+	
+</head>
+<body>
+	
+	<!--navigation bar-->
+	
+		<nav>
+			<div class="content">
+				<img class="logo" src="CEYLONcopy.png" alt="weblogo">
+			</div>
+		
+			<a class="link" href="Mainpage/WEBCWMAINHTML.html">Home</a>
+			<div class="dropdown0">
+				<button class="product-btn">Products</button>
+					<div class="product-content">
+						<a class="link-hidden0" href="mainProductPage.html">All products</a>
+                        <a class="link-hidden0" href="tent.html">Dome Camping Tent</a>
+                        <a class="link-hidden0" href="chair.html">Folding Chair</a>
+                        <a class="link-hidden0" href="backpack.html">Camping Backpack</a>
+                        <a class="link-hidden0" href="sleepingbag.html">Sleeping bag</a>
+                        <a class="link-hidden0" href="#cart">Cart</a>
+					</div>
+			</div>
+			<a class="link" href="QuickQuiz.html">Quiz</a>
+			<a class="link" href="WEBCWQUERY.html">Query</a>
+			<a class="link" href="ThambnailImage.html">Gallery</a>
+			<div class="dropdown1">
+				<button class="contact-btn">Contact</button>
+					<div class="contact-content">
+						<a class="link-hidden1" href="WEBCWQUERY.html">Query Form</a>
+					
+					</div>
+			</div>
+		
+			<div class="dropdown">
+				<button class="about-btn">About</button>
+					<div class="about-content">
+						<a class="link-hidden" href="SVGDiagram.html">SVG SiteMap</a>
+						<a class="link-hidden" href="#">FAQ</a>
+						<a class="link-hidden" href="studentDetails.html">Student Details</a>
+					</div>
+			</div>
+		</nav>
+		
+		<!--query form-->
+		
+		<div class="query-container">
+			<form class="form" id="form" onsubmit="return valuecheck()" >
+				<div class="form-control">
+					<label>Full Name:</label><br>
+					<input type="text" placeholder="Your Name" id="fullname" name="fullname">
+				</div><br><br>
+				<div class="form-control">
+					<label>Email:</label><br>
+					<input type="text" placeholder="Your Email" id="email" name="email">
+				</div><br><br>
+				<div class="form-control">
+					<select id="selection">
+						<option value="blank">Choose a subject</option>
+						<option value="booking">Booking</option>
+						<option value="places">Places</option>
+						<option value="wquipments">Equipments</option>
+						<option value="other">Other</option>
+					</select>
+				</div><br><br>
+				<div class="form-control">
+					<label>Details:</label><br><br>
+					<textarea placeholder="Your Details" id="detail" name="detail"></textarea>
+				</div><br><br>
+				<input class="viewQuerybtn"  type="submit" value="View Query">
+			</form>	
+		</div>
+		
+		
+		<!--footer-->
+		
+	<div class="footer">
+		<img class="footer-img" src="CEYLON.png" alt="ceylon">
+		
+		
+		
+		<button class="sitemap-r">
+				<a class="sitemap-r-link" href="">Site Map</a>
+		</button>
+		
+		
+		
+		<button class="editor">
+			<a class="editor-link" href="WEBCWEDITORHTML.html">Page Editor</a>
+		</button>
+		
+
+			<ul class="footer-social">
+				<li><a class="footer-social-link" href="#">facebook</a></li>
+				<li><a class="footer-social-link-1" href="#">instagram</a></li>
+				<li><a class="footer-social-link-2" href="#">youtube</a></li>
+				<li><a class="footer-social-link-3" href="#">twitter</a></li>
+			</ul>
+	
+		
+		<button  class="contact-footer">
+			<a class="contact-footer-link" href="WEBCWQUERY.html">Contact Us</a>
+		</button>
+		
+		<p class="copyright-text">@copyright aaaaaaaaaa</p>
+	</div>	
+		
+		
+		
+</body>
+</html>		
+	
+	
+	
